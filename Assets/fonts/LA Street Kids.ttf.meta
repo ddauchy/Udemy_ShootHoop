@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 94c2ae5dcb1e646449f839b5a2b23344
+timeCreated: 1475357806
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: LA Street Kids
+  fontNames:
+  - LA Street Kids
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
