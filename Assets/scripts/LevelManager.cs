@@ -20,7 +20,7 @@ public class LevelManager : MonoBehaviour {
 			if (timeTillNextLevel <= 0) {
 				LoadNextScene ();
 			}
-			print ("Time till next level " + timeTillNextLevel);
+		//	print ("Time till next level " + timeTillNextLevel);
 		}
 	}
 

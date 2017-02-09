@@ -12,7 +12,7 @@ public class Camera : MonoBehaviour {
 	void Update () {
 		float mousex = Input.GetAxis ("Mouse X");
 		float mousey = Input.GetAxis ("Mouse Y");
-		float rotationSpeed = 5.0f;
+		float rotationSpeed = 2.0f;
 			
 		transform.localRotation = Quaternion.Euler (0, mousex*rotationSpeed, 0) * transform.localRotation;
 		Camera camera = GetComponentInChildren<Camera> ();	

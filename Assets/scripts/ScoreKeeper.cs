@@ -21,5 +21,8 @@ public class ScoreKeeper : MonoBehaviour {
 		myscore += value;
 		print ("Score:: " + myscore);
 		scoretest = ScoreKeeper.myscore;
+
+		AudioSource scoreSound = GetComponent<AudioSource> ();
+		scoreSound.Play ();
 	}
 }
